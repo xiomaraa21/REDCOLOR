@@ -1,0 +1,242 @@
+
+.cont{
+    background-color: #000;
+}
+.container-menu {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #000;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.columna {
+    flex: 1;
+    text-align: center;
+    margin: 0 0px;
+    background-color:#000;
+    border-radius: 0px;
+    padding: 5px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.columna a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.columna:hover {
+    background-color: #ff0008;
+    text-decoration: none;
+
+}
+
+.columna a:hover{
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .container-menu {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+      overflow-x: hidden; 
+    }
+
+    .logo img{
+        width: 50%;
+    }
+
+    .columna a {
+        color: #ffffff;
+        font-size: 12px;
+        text-decoration: none;
+        padding: 1px 0px;
+        margin: 0 auto;
+    }
+
+  }
+
+/*-----------------------------------------------------------------------------*/
+
+.image-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+
+.cont-3{
+    padding: 15px;
+    background: linear-gradient(to right,#8a1f20, #e2181f);
+    margin: 10px;
+}
+
+.contenedor-texto {
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+    text-align: center;      
+    margin: 20px auto;
+    max-width: 800px;    
+    padding: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; 
+}
+
+.texto-responsivo {
+    font-size: 1em; 
+    line-height: 1.6; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    color: #000000;
+}
+
+@media (max-width: 600px) {
+    .texto-responsivo {
+        font-size: 0.8em; 
+        margin: 20px auto;
+    }
+}
+
+/**********************************************************/
+.cont-4 {
+    background-color: #000000;
+    padding: 40px;
+}
+
+.cont-4-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.column {
+    flex: 1;
+    min-width: 250px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .column {
+        border-top: 1px solid rgba(255, 255, 255, 0.397);
+        padding: 15px ;
+
+    }
+
+    .column:first-child {
+        border-left: none; 
+    }
+
+    .column:last-child {
+        border-right: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .images {
+        margin: 0 auto;
+        width:60%; 
+        height: auto;
+        justify-items: center; 
+        align-items: center;
+        align-self: center;
+        text-align: center;
+    }
+}
+
+.images {
+    justify-content: space-between;
+    grid-template-columns: 1fr;
+}
+
+.images img {
+    max-width: 48%; 
+    height: auto;
+}
+
+h2{
+    font-size: 0.7rem;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.img-logo{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+
+.img-logo img{
+    height: auto;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .img-logo img {
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+}
+
+.text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.t1 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 0.9rem;
+    
+}
+
+.t2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 0.8rem;
+}
